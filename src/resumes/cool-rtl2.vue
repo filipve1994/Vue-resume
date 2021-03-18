@@ -226,7 +226,8 @@ $left-column-width: 240px;
 }
 
 .banner {
-  width: calc(100% - $base-padding * 2);
+  /*width: calc(100% - $base-padding * 2);*/
+  width: calc(100% - #{$base-padding} * 2);
   height: $banner-height;
   padding: $base-padding;
   background-color: $banner-color;

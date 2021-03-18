@@ -1,6 +1,6 @@
 .DS_Store
 node_modules
-/dist
+#/dist
 
 
 # local env files
@@ -21,3 +21,14 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+
+package-lock.json
+
+test/unit/coverage
+test/e2e/reports
+selenium-debug.log
+firefox_root/
+GeckoChildCrash*
+electroshot-config.json
+tmpaddon*
